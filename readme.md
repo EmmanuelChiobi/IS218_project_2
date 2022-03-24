@@ -4,7 +4,6 @@
 
 * [Production Deployment](https://ec362-proj2-prod.herokuapp.com/)
 
-
 [![Development Workflow](https://github.com/EmmanuelChiobi/IS218_project_1/actions/workflows/dev.yml/badge.svg)](https://github.com/EmmanuelChiobi/IS218_project_1/actions/workflows/dev.yml)
 
 * [Developmental Deployment](https://ec362-proj2-dev.herokuapp.com/)
