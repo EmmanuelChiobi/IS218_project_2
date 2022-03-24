@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="title">Docker</h1>
+    <h2>Containers</h2>
+    <p>A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. In simpler terms, it is a sandboxed process on your machine that is isolated from all other processes on the host machine.</p>
+    <h2>Images</h2>
+    <p>A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other users who use Docker.</p>
+    <h2>Docker Hub Link:</h2>
+    <p><a href="https://hub.docker.com/repository/docker/smus16475/project_1">https://hub.docker.com/repository/docker/smus16475/project_1</a></p>
+    <h2>How To Run a Docker Project (with only commands):</h2>
+    <p>docker run -dp 8080:80 </p>
+{% endblock %}

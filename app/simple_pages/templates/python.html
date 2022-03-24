@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="title">Python</h1>
+    <h2>What is Pytest?</h2>
+    <p>Pytest is a mature full-featured Python testing tool that helps you write better programs. It is a testing framework that allows users to write test codes using the Python programming language. It helps you to write simple and scalable test cases for databases, APIs, or UI.</p>
+    <h2>What is Flask?</h2>
+    <p>A lightweight WSGI web framework, Flask is a Python module that lets you develop web applications with ease. It is designed to make getting started with web development quick and easy with the ability to scale up to complex applications.</p>
+    <h2>How They're Used In Our Code</h2>
+    <p>Regarding Flask, it is essentially the backbone, or infrastructure, of the entire project running on a virtual environment as the Python interpreter. Regarding Pytest, the tool is divided into various files each with different responsibilities for the Flask project. For this project in particular, two files that are of importance include the "context_process_text.py" and "simple_pages_text.py" files, which are essentially for the testing of the individual pages for this web application project. <br><br> When creating and testing "simple_pages_test.py", I had to make a few edits to the program in order to adapt with the new title change of the simple pages. For instance, they were initially called "page1, page2, etc.", so when I changed them to the respective topics being covered for this project, I also had to change the code to reflect on the new titles of the html files in the simple pages directory. After that, I created a build using the "docker compose up --build" command, launched Docker from within PyCharm, and conducted the tests in the terminal only to see that they were a success.</p>
+    <p><strong>Link to Repository: </strong><a href="https://github.com/EmmanuelChiobi/IS218_project_1">https://github.com/EmmanuelChiobi/IS218_project_1</a></p>
+    <p><strong>Documentation of Flask Blueprint: </strong><a href="https://flask.palletsprojects.com/en/2.0.x/blueprints/">https://flask.palletsprojects.com/en/2.0.x/blueprints/</a></p>
+    <p><strong>Documentation of GitHub Flask: </strong><a href="https://github-flask.readthedocs.io/en/latest/">https://github-flask.readthedocs.io/en/latest/</a></p>
+    <p><strong>Testing Flask Applications: </strong><a href="https://flask.palletsprojects.com/en/2.0.x/testing/">https://flask.palletsprojects.com/en/2.0.x/testing/</a></p>
+{% endblock %}
