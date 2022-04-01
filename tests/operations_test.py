@@ -1,6 +1,6 @@
 """Testing the calculator operations """
 
-from calculator.operations import Addition, Subtraction, Multiplication
+from calculator.operations import Addition, Subtraction, Multiplication, Division
 
 
 def test_calculator_operations_add():
@@ -16,3 +16,7 @@ def test_calculator_operations_subtract():
 def test_calculator_operations_multiply():
     """Testing the Calculator"""
     assert Multiplication.multiply(1, 1) == 1
+
+def test_calculator_operations_divide():
+    """Testing the Calculator"""
+    assert Division.divide(1, 1) == 1

@@ -44,7 +44,7 @@ def test_calculator_subtract_method():
 
 
 def test_calculator_multiply_method():
-    """Testing the Calculator Subtract"""
+    """Testing the Calculator Multiply"""
     calculator = Calculator()
     assert calculator.multiply(1, 1) == 1
 
@@ -59,3 +59,8 @@ def test_my_first_test_add_with_variables():
     value_b = 2
     value_c = value_a + value_b
     assert value_a + value_b == value_c
+
+def test_calculator_divide_method():
+    """ Testing the Calculator Divide"""
+    calculator = Calculator()
+    assert calculator.divide(1, 1) == 1
