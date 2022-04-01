@@ -17,7 +17,7 @@ class Subtraction:
 
     @staticmethod
     def subtract(value_1, value_2):
-        """ This is the add method"""
+        """ This is the subtract method"""
         return value_1 - value_2
 
 
@@ -26,5 +26,13 @@ class Multiplication:
 
     @staticmethod
     def multiply(value_1, value_2):
-        """ This is the add method"""
+        """ This is the multiply method"""
         return value_1 * value_2
+
+class Division:
+    """ This is the division class """
+
+    @staticmethod
+    def divide(value_1, value_2):
+        """ This is the divide method"""
+        return value_1 / value_2
