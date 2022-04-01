@@ -11,7 +11,7 @@ def test_request_main_menu_links(client):
     assert b'<a class="nav-link" href="/pylint">Pylint</a>' in response.data
     assert b'<a class="nav-link" href="/aaa">AAA</a>' in response.data
     assert b'<a class="nav-link" href="/oop">OOP</a>' in response.data
-    assert b'<a class="nav-link" href="/solid">Solid</a>' in response.data
+    assert b'<a class="nav-link" href="/solid">SOLID</a>' in response.data
 
 def test_request_index(client):
     """This makes the index page"""
