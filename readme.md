@@ -1,5 +1,7 @@
 # Calculator Program
 
+Name: Emmanuel Chiobi
+
 [![Production Workflow](https://github.com/EmmanuelChiobi/IS218_project_1/actions/workflows/prod.yml/badge.svg)](https://github.com/EmmanuelChiobi/IS218_project_1/actions/workflows/prod.yml)
 
 * [Production Deployment](https://ec362-proj2-prod.herokuapp.com/)
