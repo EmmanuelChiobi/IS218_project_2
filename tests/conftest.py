@@ -4,7 +4,6 @@
 import pytest
 from app import create_app
 
-
 @pytest.fixture()
 def application():
     """This makes the app"""
@@ -14,12 +13,10 @@ def application():
     })
     yield application
 
-
 @pytest.fixture()
 def client(application):
     """This makes the http client"""
     return application.test_client()
-
 
 @pytest.fixture()
 def runner(application):

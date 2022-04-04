@@ -2,7 +2,6 @@
 # From specifies the namespace
 from calculator.calculations import Addition, Subtraction, Multiplication, Division
 
-
 def test_calculation_multiplication_instance():
     """Testing the Calculator Multiply"""
     tuple_list = (1, 2)
