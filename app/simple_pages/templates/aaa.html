@@ -2,5 +2,12 @@
 {% block content %}
     <h1>Arrange, Act, Assert (AAA) Testing</h1>
     <h2>What is "arrange, act, assert"?</h2>
-    <p></p>
+    <p>“Arrange, act, assert” (also known as AAA or 3A) is a pattern of testing in programming that focuses each test on a single action. By doing so, it clearly separates the arrangement of the System Under Test (SUT) and the assertions that are made on it after the action, serving as an advantage over other known tests.</p>
+    <ul>
+        <li><b>Arrange:</b> The block of code that sets up the conditions for the test action.</li>
+        <li><b>Act:</b> The line of code where the action is taken on the SUT.</li>
+        <li><b>Assert:</b> The block of code that performs the assertions on the state of the SUT after the action.</li>
+    </ul>
+    <h2>How AAA testing is used in our program</h2>
+    <p>AAA testing is essential for this Flask calculator program for each element plays a significant role in the program's functionality. First, we use the "arrange" method as initialization. In this context, we reference the calculations_test.py file. The tuple "tuple_list" is used to call in values (value_1 & value_2) that were initialized called in the Calculator class. <br><br> The "act" method focuses on how the primary element is used or executed in the code. In this context, the calculation variable called the "create" method from each individual class, and "tuple_list" is inserted as a parameter. <br><br> The last method, "assert", is used for conditional purposes, meaning it's needed to determine whether the next instance to be used is equal to the final value to be displayed. In this context, we call the "isinstance" method and insert the "calculation" variable and arithmetic classes in as parameters to determine whether we gain a certain value or not.</p>
 {% endblock %}
