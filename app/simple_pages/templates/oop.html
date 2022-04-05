@@ -5,19 +5,33 @@
     <p>Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object, in this context, can be defined as a data field that has unique attributes and behavior. OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex and actively updated or maintained. This includes programs for manufacturing and design, as well as mobile applications. For example, OOP can be used for manufacturing system simulation software.</p>
     <h2>Object-oriented programming in Python</h2>
     <p>In Python, object-oriented programming (OOPs) is a programming paradigm that uses objects and classes in programming. OOPs aim to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. The main concept of OOPs for this programming language and many others is to bind the data and the functions that work on that together as a single unit so that no other part of the code can access the data.</p>
-    <h2></h2>
-    <p></p>
+    <h2>How OOP is used in our program</h2>
+    <p>In this project, the four principles of object-oriented programming (encapsulation, inheritance, polymorphism, and abstraction) are reflected on the calculator program:</p>
+    <ul>
+        <li><b>Encapsulation:</b> The "__init__.py" file within the calculator directory exhibits methods in the Calculator class that is called in other various .py files used throughout the program. (i.e. "get_result" method called in "calculator_test.py" file.</li>
+        <li><b>Inheritance:</b> The "__init__.py" file within the calculator/calculations directory exhibits classes that takes in other classes as parameters to "inherit" its variables and methods. For instance, each arithmetic class (Addition, Subtraction, Multiplication, Division) takes in the Calculation class as a parameter to inherit the "self.values" method.</li>
+        <li><b>Polymorphism:</b> The "__init__.py" file within the calculator directory imports four separate child classes from a module which allows for each class that uses that module to gain usage of its elements (variables, functions, etc.). For instance, the Calculator class has arithmetic functions that calls in their respective classes for further functionality.</li>
+        <li><b>Abstraction:</b> Like when inheritance is applied, the "__init__.py" file within the calculator/calculations directory allows for a particular class to inherit elements from another class when the latter class is set as a parameter. Only difference is the latter class can add its own elements on top of those inherited. For instance, the use of value variables (like result) are added onto of those inherited for the "Calculation" class and used in the arithmetic classes throughout the code.</li>
+    </ul>
     <h2>Glossary</h2>
     <ul>
-        <li><b>Instantiation:</b> </li>
-        <li><b>Object:</b> </li>
-        <li><b>Class:</b> </li>
-        <li><b>Namespace:</b> </li>
-        <li><b>Constructor:</b> </li>
-        <li><b>Fixture:</b> </li>
-        <li><b>Type Hint:</b> </li>
-        <li><b>Type Cast:</b> </li>
-        <li><b>Unit Test:</b> </li>
-        <li><b></b> </li>
+        <li><b>Instantiation:</b> The process of taking a class definition and creating an object that you can use in a program.</li>
+        <li><b>Object:</b> An instance of a class created with specifically defined data.</li>
+        <li><b>Class:</b> A user-defined data type that acts as the blueprint for individual objects, attributes, and methods.</li>
+        <li><b>Namespace:</b> A declarative region that provides a scope to the identifiers (type names, variables, functions, etc.) inside it.</li>
+        <li><b>Constructor:</b> A special method of a class or structure in object-oriented programming that initializes a newly created object of that type.</li>
+        <li><b>Fixture:</b> A test method that ensures there is a well known and fixed environment in which tests are run, so that results are repeatable.</li>
+        <li><b>Type Hint:</b> A hint provided to function to only accept the given data type.</li>
+        <li><b>Type Cast:</b> A way of changing an object from one data type to the next.</li>
+        <li><b>Unit Test:</b> A type of test in object-oriented programming that aims to ensure that each individual part of a program works correctly in isolation.</li>
+        <li><b>Static:</b> A keyword in OOP that indicates a member is on the class level rather than on the instance level.</li>
+        <li><b>Instance Method:</b> A method that belongs to instances of a class, not the class itself.</li>
+        <li><b>Instance Property:</b> An attribute that is owned by the specific instance of a class.</li>
+        <li><b>Static Method:</b> A method defined as a member of an object but is accessible directly from an API object's constructor, rather than from an object instance created via the constructor.</li>
+        <li><b>Static Property:</b> An individual element as a member of an object accessible directly from the constructor (class).</li>
+        <li><b>Encapsulation:</b> The bundling of data, along with the methods that operate on that data, into a single unit.</li>
+        <li><b>Inheritance:</b> A way of creating a new class for using details of an existing class without modifying it.</li>
+        <li><b>Polymorphism:</b> An ability in OOP to use a common interface for multiple forms (data types).</li>
+        <li><b>Abstraction:</b> The concept of object-oriented programming that "shows" only essential attributes and "hides" unnecessary information.</li>
     </ul>
 {% endblock %}
