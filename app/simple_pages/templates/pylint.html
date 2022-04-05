@@ -4,5 +4,10 @@
     <h2>What is Pylint?</h2>
     <p><b>Pylint</b> is a Python static code analysis tool which looks for programming errors, helps enforcing a coding standard, sniffs for code smells and offers simple refactoring suggestions. Pylint is highly configurable, having special pragmas to control its errors and warnings from within your code, as well as from an extensive configuration file. It is also possible for one to write their own plugins for adding one's own checks or for extending Pylint in one way or another</p>
     <h2>How Pylint is used in our program</h2>
-    <p>Along with <b>Pytest</b>, Pylint plays an integral role regarding the testing process of our calculator program. Pylint determines whether </p>
+    <p>Along with <b>Pytest</b>, Pylint plays an integral role regarding the testing process of our calculator program. Pylint determines whether our test files have any noticeable errors that prevent the program from executing properly. <br><br> Below is an shown example of pylint in action when analyzing each test file:</p>
+    <h2>Command: python -m pytest --pylint --cov</h2>
+    <img src="/app/static/images/pj2_pytest.png" alt="Screenshot of pylint in action">
+    <p>Based on the information above, 36 items within the entire Calculator program that pylint searched for passed, indicating that there are no visible programming errors within those files and the program should run successfully.</p>
+    <h2>Why is testing important in Python?</h2>
+    <p>Along with Python, unit testing is important for any programming language. The goal of unit testing is to detect as many bugs and inconsistencies in the infancy of the application development as possible, which is achieved by designing and scripting accurate and quality unit tests that can also server as detailed documentation for the development process. To summarize, these unit tests are written to make sure that the code works correctly, which helps developers to detect and protect against bugs in the future.</p>
 {% endblock %}
