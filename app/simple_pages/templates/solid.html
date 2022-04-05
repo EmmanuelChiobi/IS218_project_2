@@ -1,6 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
     <h1 class="title">SOLID</h1>
+    <h2>What is "SOLID"?</h2>
+    <p>The principle of SOLID coding, which stands for five different conventions of coding, is an acronym that was originated by Robert C. Martin. The SOLID principles are:</p>
+    <ul>
+        <li><b>S:</b><i> The Single-Responsibility Principle (SRP)</i></li>
+        <p><i>"A class should have one, and only one, reason to change."</i><br><br>In this principle, every component of one's code should have one <b>and only one</b> responsibility.</p>
+        <li><b>O:</b><i> The Open-Closed Principle (OCP)</i></li>
+        <p><i>"Software entities...should be open for extension but closed for modification."</i><br><br> This principle indicates that one should not need to modify their code they have already written to accommodate new functionality, but simply add what they now need for their program. The code does not get changed when modification is needed.</p>
+        <li><b>L:</b><i> The Liskov Substitution Princple (LSP)</i></li>
+        <p><i>"Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."</i><br><br> This principle indicates that derived classes must be substitutable for their base classes. For instance, if a subclass redefines a function also present in the parent class, a client-user should not be noticing any difference in behavior, and it is a substitute for the base class.</p>
+        <li><b>I:</b><i> The Interface Segregation Principle (ISP)</i></li>
+        <p><i>"Many client-specific interfaces are better than one general-purpose interface."</i><br><br> This principle indicates that an interface is considered and all the methods and properties are "exposed". Thus, everything that a user can interact with belongs to that class. In basic terms, the IS principles tell us that a class should only have the interface needed (SRP) and avoid methods that won't work or that have no reason to be part of that class.</p>
+        <li><b>D:</b><i> The Dependency Inversion Principle (DIP)</i></li>
+        <p><i>"Abstractions should not depend on details. Details should depend on abstraction. High-level modules should not depend on low-level modules. Both should depend on abstractions."</i><br><br> This principle indicates that abstractions (i.e. the interface) should not be dependent on low-level methods but both should depend on a third interface. For instance, if one were to write a program that takes in input for a specific set of info and they wrote a script to process it, the script would have to be rewritten and the new format adjusted, which causes them to lose the retro compatibility with the older files.</p>
+    </ul>
     <h2></h2>
-    <p></p>
 {% endblock %}
